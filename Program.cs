@@ -15,21 +15,21 @@
             switch (Console.ReadLine())
             {
                 case "1":
-                    AddrBook.GetCustomer();
-                    AddrBook.ListingPeople();
+                    AddressBooks.AddrBook.GetCustomer();
+                    AddressBooks.AddrBook.ListingPeople();
                     break;
                 case "2":
-                    AddrBook.GetCustomer();
-                    AddrBook.Modify();
-                    AddrBook.ListingPeople();
+                    AddressBooks.AddrBook.GetCustomer();
+                    AddressBooks.AddrBook.Modify();
+                    AddressBooks.AddrBook.ListingPeople();
                     break;
                 case "3":
-                    AddrBook.GetCustomer();
-                    AddrBook.ListingPeople();
+                    AddressBooks.AddrBook.GetCustomer();
+                    AddressBooks.AddrBook.ListingPeople();
                     break;
                 case "4":
-                    AddrBook.GetCustomer();
-                    AddrBook.RemovePeople();
+                    AddressBooks.AddrBook.GetCustomer();
+                    AddressBooks.AddrBook.RemovePeople();
 
                     break;
                 default:
@@ -37,8 +37,7 @@
                     break;
 
             }
-
-
         }
+
     }
 }
