@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Welcome to Address Book System");
+            AddressBooks.AddrBook.GetCustomer();
+            AddressBooks.AddrBook.ListingPeople();
 
         }
     }
