@@ -122,7 +122,6 @@ namespace AddressBooks
 
             }
         }
-
         //Print the details
         public void PrintCustomer(AddrBook person)
         {
@@ -290,6 +289,27 @@ namespace AddressBooks
                 }
             }
 
+        }
+
+
+        public static void SortContactPerson(Dictionary<string, List<AddrBook>> addressBook)
+        {
+
+            SortedList<string, AddrBook> sorted;
+            foreach (KeyValuePair<string, List<AddrBook>> kvp in addressBook)
+            {
+                Console.WriteLine("\n--------Displaying sorted Contact Person Details in address book: {0}-------\n", kvp.Key);
+                sorted = new SortedList<string, AddrBook>();
+                foreach (var member in kvp.Value)
+                {
+                    sorted.Add(member.firstName, member);
+                }
+                foreach (var member in sorted)
+                {
+                    Console.WriteLine(member.Value.ToString());
+
+                }
+            }
         }
     }
 }
