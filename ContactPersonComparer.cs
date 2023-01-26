@@ -14,6 +14,7 @@ namespace AddressBooks
             state,
             zip
         }
+
         public sortBy compareByFields;
 
         //Compare values of addressBook object x and y
