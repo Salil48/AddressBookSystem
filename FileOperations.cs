@@ -7,7 +7,6 @@ namespace AddressBooks
 {
     class FileOperations
     {
-
         const string filepath = @"J:\240\AddressBooks\AddressBooks\Example.txt";
 
         //Write content to file
