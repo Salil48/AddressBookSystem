@@ -7,7 +7,5 @@ namespace AddressBooks
 {
     public class AddressText
     {
-
     }
-
 }
