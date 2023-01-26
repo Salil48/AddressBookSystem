@@ -9,6 +9,7 @@ namespace AddressBooks
         //Constants 
         public enum sortBy
         {
+
             firstName,
             city,
             state,
